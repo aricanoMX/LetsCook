@@ -1,0 +1,13 @@
+.nav-mobile {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  span {
+    color: red;
+  }
+  img {
+    width: 150px;
+  }
+}

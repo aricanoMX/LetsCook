@@ -1,0 +1,50 @@
+$color-main: #264653;
+$color-btn: #e9c46a;
+$color-hover: #2a9d8f;
+$color-light: #dbe4ee;
+
+$font-text: "Roboto Mono", monospace;
+$font-titles: "Roboto Condensed", sans-serif;
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1440px;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: $color-main;
+  background-color: $color-light;
+  font-family: $font-text;
+}
+main {
+  display: grid;
+  padding: 0 2.5%;
+  a {
+    text-decoration: none;
+    color: $color-main;
+  }
+  button {
+    color: $color-main;
+    font-weight: 700;
+  }
+}
+
+.title {
+  font-family: $font-titles;
+  font-size: 1.1em;
+}
+
+.button {
+  font-family: $font-titles;
+  background-color: $color-btn;
+  border-color: $color-main;
+  text-align: center;
+  border-radius: 25px;
+  height: 20px;
+}
