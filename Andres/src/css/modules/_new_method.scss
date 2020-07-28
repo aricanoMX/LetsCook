@@ -8,13 +8,13 @@ form {
       display: flex;
     }
     select {
-      border: 1px solid $color-main;
+      padding: 0 5px;
+      border: 0.5px solid rgba($color-main, $alpha: 0.25);
       border-radius: 25px;
       height: 21px;
       background-color: $color-btn;
       color: $color-main;
       font-weight: 700;
-      border: 0.5px solid rgba($color-main, $alpha: 0.25);
     }
   }
   label {
@@ -35,7 +35,8 @@ form {
     display: grid;
     grid-template: 1fr 1fr/1fr 1fr;
     & input {
-      margin: 0 2.5%;
+      width: 90%;
+      margin: 0 auto;
     }
     .new-card {
       display: flex;
