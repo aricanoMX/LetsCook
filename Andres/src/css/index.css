@@ -145,6 +145,7 @@ form .method-header select {
   background-color: #e9c46a;
   color: #264653;
   font-weight: 700;
+  border: 0.5px solid rgba(38, 70, 83, 0.25);
 }
 form label {
   display: inline-flex;
