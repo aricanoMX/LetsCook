@@ -1,18 +1,16 @@
 .old-methods {
   font-size: 1.5em;
-  h3 {
-  }
   .methods {
     font-size: 0.75em;
     font-weight: bold;
     a {
       display: grid;
       grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-      border: 0.5px solid $color-main;
-      border-radius: 25px;
-      height: 41px;
       align-items: center;
+      height: 41px;
       margin-bottom: 20px;
+      border: 0.5px solid rgba($color-main, $alpha: 0.25);
+      border-radius: 25px;
       input {
         margin: 0 auto;
         height: 20px;
